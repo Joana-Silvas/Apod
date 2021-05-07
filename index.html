@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Nasa</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h3>Escolha uma data</h3>
+        <div id="date">
+            <input type="date" min="1995-05-16" id="data">
+            <button id="botao" onclick="Start()"> Procurar</button>
+        </div>
+    </header>
+
+    <h1 id="titulo"> </h1>
+    <main class="container">
+
+        <img id="imag" src="">
+        <iframe class="hide" id="video" src=""></iframe>
+        <div class="texto">
+            <p id="paragrafo"> </p>
+        </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="footertext"> Picture of the Day - <a class="cor" href="https://www.nasa.gov/">Nasa</a> All Rigths Reserved</p>
+       
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="./js/script.js" type="text/javascript"></script>
+</body>
+
+</html>
